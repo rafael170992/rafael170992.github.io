@@ -1,8 +1,8 @@
 #logo {
-    width: 10px;
+    width: 100px;
   }
 
 #logo img {
-    max-width: 10%;
+    max-width: 50%;
     height: auto;
   }
