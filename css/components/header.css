@@ -1,38 +1,44 @@
 header {
-    background-color: #333;
-    /* Puedes ajustar el color de fondo según tus preferencias */
-    color: white;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    align-items: center;
+  background-color: #fafafc;
+  /* Puedes ajustar el color de fondo según tus preferencias */
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
 }
 
 nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  nav li {
-    display: inline-block;
-    margin-right: 20px; /* Ajusta el espacio entre los elementos del menú */
-  }
-  
-  nav a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    font-size: 18px; /* Puedes ajustar el tamaño de fuente según tus preferencias */
-  }
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  flex-grow: 1;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px; /* Ajusta el espacio entre los elementos del menú */
+}
+
+nav a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 18px; /* Puedes ajustar el tamaño de fuente según tus preferencias */
+}
 
 #logo {
-    width: 100px;
-    display: inline-block;
+  width: 100px;
+  display: inline-block;
 }
 
 #logo img {
-    max-width: 70%;
-    height: auto;
+  max-width: 70%;
+  height: auto;
+  border-radius: 50%;
 }
