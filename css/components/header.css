@@ -15,6 +15,24 @@ nav ul {
   margin: 0;
 }
 
+nav ul ul {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  padding: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+nav ul li:hover > ul {
+  display: block;
+}
+
+
+nav ul ul li {
+  float: none;
+  width: 100%;
+  text-align: left;
+}
 nav {
   flex-grow: 1;
 }
